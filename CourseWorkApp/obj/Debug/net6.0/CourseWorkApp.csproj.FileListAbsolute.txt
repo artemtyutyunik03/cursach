@@ -1,0 +1,15 @@
+/Users/artem/RiderProjects/CourseWork/CourseWorkApp/bin/Debug/net6.0/CourseWorkApp
+/Users/artem/RiderProjects/courseWork/CourseWorkApp/bin/Debug/net6.0/CourseWorkApp.deps.json
+/Users/artem/RiderProjects/courseWork/CourseWorkApp/bin/Debug/net6.0/CourseWorkApp.runtimeconfig.json
+/Users/artem/RiderProjects/CourseWork/CourseWorkApp/bin/Debug/net6.0/CourseWorkApp.dll
+/Users/artem/RiderProjects/CourseWork/CourseWorkApp/bin/Debug/net6.0/CourseWorkApp.pdb
+/Users/artem/RiderProjects/CourseWork/CourseWorkApp/obj/Debug/net6.0/CourseWorkApp.csproj.AssemblyReference.cache
+/Users/artem/RiderProjects/CourseWork/CourseWorkApp/obj/Debug/net6.0/CourseWorkApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/artem/RiderProjects/CourseWork/CourseWorkApp/obj/Debug/net6.0/CourseWorkApp.AssemblyInfoInputs.cache
+/Users/artem/RiderProjects/CourseWork/CourseWorkApp/obj/Debug/net6.0/CourseWorkApp.AssemblyInfo.cs
+/Users/artem/RiderProjects/CourseWork/CourseWorkApp/obj/Debug/net6.0/CourseWorkApp.csproj.CoreCompileInputs.cache
+/Users/artem/RiderProjects/CourseWork/CourseWorkApp/obj/Debug/net6.0/CourseWorkApp.dll
+/Users/artem/RiderProjects/CourseWork/CourseWorkApp/obj/Debug/net6.0/refint/CourseWorkApp.dll
+/Users/artem/RiderProjects/CourseWork/CourseWorkApp/obj/Debug/net6.0/CourseWorkApp.pdb
+/Users/artem/RiderProjects/courseWork/CourseWorkApp/obj/Debug/net6.0/CourseWorkApp.genruntimeconfig.cache
+/Users/artem/RiderProjects/courseWork/CourseWorkApp/obj/Debug/net6.0/ref/CourseWorkApp.dll
