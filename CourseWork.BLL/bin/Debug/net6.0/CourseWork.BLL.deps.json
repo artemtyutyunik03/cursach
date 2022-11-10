@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CourseWork.BLL/1.0.0": {
+        "dependencies": {
+          "XMLProvider": "1.0.0"
+        },
+        "runtime": {
+          "CourseWork.BLL.dll": {}
+        }
+      },
+      "XMLProvider/1.0.0": {
+        "runtime": {
+          "XMLProvider.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CourseWork.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "XMLProvider/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

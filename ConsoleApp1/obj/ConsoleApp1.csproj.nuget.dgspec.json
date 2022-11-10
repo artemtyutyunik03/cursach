@@ -1,0 +1,232 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/artem/RiderProjects/CourseWork/ConsoleApp1/ConsoleApp1.csproj": {}
+  },
+  "projects": {
+    "/Users/artem/RiderProjects/CourseWork/ConsoleApp1/ConsoleApp1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/artem/RiderProjects/CourseWork/ConsoleApp1/ConsoleApp1.csproj",
+        "projectName": "ConsoleApp1",
+        "projectPath": "/Users/artem/RiderProjects/CourseWork/ConsoleApp1/ConsoleApp1.csproj",
+        "packagesPath": "/Users/artem/.nuget/packages/",
+        "outputPath": "/Users/artem/RiderProjects/CourseWork/ConsoleApp1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/artem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/artem/RiderProjects/CourseWork/CourseWork.PL/CourseWork.PL.csproj": {
+                "projectPath": "/Users/artem/RiderProjects/CourseWork/CourseWork.PL/CourseWork.PL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/artem/RiderProjects/CourseWork/CourseWork.BLL/CourseWork.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/artem/RiderProjects/CourseWork/CourseWork.BLL/CourseWork.BLL.csproj",
+        "projectName": "CourseWork.BLL",
+        "projectPath": "/Users/artem/RiderProjects/CourseWork/CourseWork.BLL/CourseWork.BLL.csproj",
+        "packagesPath": "/Users/artem/.nuget/packages/",
+        "outputPath": "/Users/artem/RiderProjects/CourseWork/CourseWork.BLL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/artem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/artem/RiderProjects/CourseWork/XMLProvider/XMLProvider.csproj": {
+                "projectPath": "/Users/artem/RiderProjects/CourseWork/XMLProvider/XMLProvider.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/artem/RiderProjects/CourseWork/CourseWork.PL/CourseWork.PL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/artem/RiderProjects/CourseWork/CourseWork.PL/CourseWork.PL.csproj",
+        "projectName": "CourseWork.PL",
+        "projectPath": "/Users/artem/RiderProjects/CourseWork/CourseWork.PL/CourseWork.PL.csproj",
+        "packagesPath": "/Users/artem/.nuget/packages/",
+        "outputPath": "/Users/artem/RiderProjects/CourseWork/CourseWork.PL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/artem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/artem/RiderProjects/CourseWork/CourseWork.BLL/CourseWork.BLL.csproj": {
+                "projectPath": "/Users/artem/RiderProjects/CourseWork/CourseWork.BLL/CourseWork.BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/artem/RiderProjects/CourseWork/XMLProvider/XMLProvider.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/artem/RiderProjects/CourseWork/XMLProvider/XMLProvider.csproj",
+        "projectName": "XMLProvider",
+        "projectPath": "/Users/artem/RiderProjects/CourseWork/XMLProvider/XMLProvider.csproj",
+        "packagesPath": "/Users/artem/.nuget/packages/",
+        "outputPath": "/Users/artem/RiderProjects/CourseWork/XMLProvider/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/artem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,9 @@
-﻿namespace CourseWork.BLL;
+﻿
 
-public class Class1
+namespace CourseWork.BLL
 {
+    public class Class1
+    {
+    }
 }
+

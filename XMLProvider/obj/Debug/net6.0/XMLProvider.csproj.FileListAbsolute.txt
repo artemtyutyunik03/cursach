@@ -1,0 +1,12 @@
+/Users/artem/RiderProjects/CourseWork/XMLProvider/bin/Debug/net6.0/XMLProvider.deps.json
+/Users/artem/RiderProjects/CourseWork/XMLProvider/bin/Debug/net6.0/XMLProvider.dll
+/Users/artem/RiderProjects/CourseWork/XMLProvider/bin/Debug/net6.0/XMLProvider.pdb
+/Users/artem/RiderProjects/CourseWork/XMLProvider/obj/Debug/net6.0/XMLProvider.csproj.AssemblyReference.cache
+/Users/artem/RiderProjects/CourseWork/XMLProvider/obj/Debug/net6.0/XMLProvider.GeneratedMSBuildEditorConfig.editorconfig
+/Users/artem/RiderProjects/CourseWork/XMLProvider/obj/Debug/net6.0/XMLProvider.AssemblyInfoInputs.cache
+/Users/artem/RiderProjects/CourseWork/XMLProvider/obj/Debug/net6.0/XMLProvider.AssemblyInfo.cs
+/Users/artem/RiderProjects/CourseWork/XMLProvider/obj/Debug/net6.0/XMLProvider.csproj.CoreCompileInputs.cache
+/Users/artem/RiderProjects/CourseWork/XMLProvider/obj/Debug/net6.0/XMLProvider.dll
+/Users/artem/RiderProjects/CourseWork/XMLProvider/obj/Debug/net6.0/refint/XMLProvider.dll
+/Users/artem/RiderProjects/CourseWork/XMLProvider/obj/Debug/net6.0/XMLProvider.pdb
+/Users/artem/RiderProjects/CourseWork/XMLProvider/obj/Debug/net6.0/ref/XMLProvider.dll

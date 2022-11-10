@@ -1,0 +1,12 @@
+/Users/artem/RiderProjects/CourseWork/CourseWork.DAL/bin/Debug/net6.0/CourseWork.DAL.deps.json
+/Users/artem/RiderProjects/CourseWork/CourseWork.DAL/bin/Debug/net6.0/CourseWork.DAL.dll
+/Users/artem/RiderProjects/CourseWork/CourseWork.DAL/bin/Debug/net6.0/CourseWork.DAL.pdb
+/Users/artem/RiderProjects/CourseWork/CourseWork.DAL/obj/Debug/net6.0/CourseWork.DAL.csproj.AssemblyReference.cache
+/Users/artem/RiderProjects/CourseWork/CourseWork.DAL/obj/Debug/net6.0/CourseWork.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/artem/RiderProjects/CourseWork/CourseWork.DAL/obj/Debug/net6.0/CourseWork.DAL.AssemblyInfoInputs.cache
+/Users/artem/RiderProjects/CourseWork/CourseWork.DAL/obj/Debug/net6.0/CourseWork.DAL.AssemblyInfo.cs
+/Users/artem/RiderProjects/CourseWork/CourseWork.DAL/obj/Debug/net6.0/CourseWork.DAL.csproj.CoreCompileInputs.cache
+/Users/artem/RiderProjects/CourseWork/CourseWork.DAL/obj/Debug/net6.0/CourseWork.DAL.dll
+/Users/artem/RiderProjects/CourseWork/CourseWork.DAL/obj/Debug/net6.0/refint/CourseWork.DAL.dll
+/Users/artem/RiderProjects/CourseWork/CourseWork.DAL/obj/Debug/net6.0/CourseWork.DAL.pdb
+/Users/artem/RiderProjects/CourseWork/CourseWork.DAL/obj/Debug/net6.0/ref/CourseWork.DAL.dll
