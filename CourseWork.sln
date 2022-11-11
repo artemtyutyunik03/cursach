@@ -2,11 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseWork.BLL", "CourseWork.BLL\CourseWork.BLL.csproj", "{998C4E48-0C7B-4281-A978-7B1BE411084C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseWork.DAL", "CourseWork.DAL\CourseWork.DAL.csproj", "{31C070AA-16ED-40D4-872B-2D44233C7917}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseWork.PL", "CourseWork.PL\CourseWork.PL.csproj", "{088B1163-7D72-4302-861B-BF4A2A1E2543}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLProvider", "XMLProvider\XMLProvider.csproj", "{B6406AE1-453B-4F3D-B0DF-6A5EAE1B5A20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseWorkDAL", "CourseWorkDAL\CourseWorkDAL.csproj", "{B6406AE1-453B-4F3D-B0DF-6A5EAE1B5A20}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{4F683319-1A67-43CE-B0C1-8B0E4FF01D3C}"
 EndProject
@@ -20,10 +18,6 @@ Global
 		{998C4E48-0C7B-4281-A978-7B1BE411084C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{998C4E48-0C7B-4281-A978-7B1BE411084C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{998C4E48-0C7B-4281-A978-7B1BE411084C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{31C070AA-16ED-40D4-872B-2D44233C7917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31C070AA-16ED-40D4-872B-2D44233C7917}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31C070AA-16ED-40D4-872B-2D44233C7917}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{31C070AA-16ED-40D4-872B-2D44233C7917}.Release|Any CPU.Build.0 = Release|Any CPU
 		{088B1163-7D72-4302-861B-BF4A2A1E2543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{088B1163-7D72-4302-861B-BF4A2A1E2543}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{088B1163-7D72-4302-861B-BF4A2A1E2543}.Release|Any CPU.ActiveCfg = Release|Any CPU

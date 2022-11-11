@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsoleApp/1.0.0": {
+        "dependencies": {
+          "CourseWork.PL": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleApp.dll": {}
+        }
+      },
+      "CourseWork.BLL/1.0.0": {
+        "dependencies": {
+          "CourseWorkDAL": "1.0.0"
+        },
+        "runtime": {
+          "CourseWork.BLL.dll": {}
+        }
+      },
+      "CourseWork.PL/1.0.0": {
+        "dependencies": {
+          "CourseWork.BLL": "1.0.0"
+        },
+        "runtime": {
+          "CourseWork.PL.dll": {}
+        }
+      },
+      "CourseWorkDAL/1.0.0": {
+        "runtime": {
+          "CourseWorkDAL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CourseWork.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CourseWork.PL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CourseWorkDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

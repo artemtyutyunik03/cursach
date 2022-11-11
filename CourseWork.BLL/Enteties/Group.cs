@@ -38,8 +38,7 @@ namespace CourseWork.BLL
 
         public override string ToString()
         {
-            return $"Group: {NameOfGroup}\n"+
-                   $"Course: {Course}\n";
+            return $"{NameOfGroup}\n";
         }
 
     }

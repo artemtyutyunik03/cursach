@@ -29,9 +29,9 @@ namespace CourseWork.BLL
             return $"Student: {LastName} {FirstName}\n"+
                    $"FirsName: {FirstName}\n"+
                    $"LastName: {LastName}\n"+
-                   $"Group: {NameOfGroup}\n"+
+                   $"Group: {Group.ToString()}\n"+
                    $"Course: {Course}\n"+
-                   $"Student ID: {ID}\n";
+                   $"Student ID: {ID}\n+\n";
         }
     }
 }

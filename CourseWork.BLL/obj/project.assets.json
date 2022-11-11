@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "XMLProvider/1.0.0": {
+      "CourseWorkDAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/XMLProvider.dll": {}
+          "bin/placeholder/CourseWorkDAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/XMLProvider.dll": {}
+          "bin/placeholder/CourseWorkDAL.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "XMLProvider/1.0.0": {
+    "CourseWorkDAL/1.0.0": {
       "type": "project",
-      "path": "../XMLProvider/XMLProvider.csproj",
-      "msbuildProject": "../XMLProvider/XMLProvider.csproj"
+      "path": "../CourseWorkDAL/CourseWorkDAL.csproj",
+      "msbuildProject": "../CourseWorkDAL/CourseWorkDAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "XMLProvider >= 1.0.0"
+      "CourseWorkDAL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -51,8 +51,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/artem/RiderProjects/CourseWork/XMLProvider/XMLProvider.csproj": {
-              "projectPath": "/Users/artem/RiderProjects/CourseWork/XMLProvider/XMLProvider.csproj"
+            "/Users/artem/RiderProjects/CourseWork/CourseWorkDAL/CourseWorkDAL.csproj": {
+              "projectPath": "/Users/artem/RiderProjects/CourseWork/CourseWorkDAL/CourseWorkDAL.csproj"
             }
           }
         }

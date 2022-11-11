@@ -1,4 +1,4 @@
-using XMLProvider;
+using XMLProvider.DAL;
 
 namespace CourseWork.BLL
 {

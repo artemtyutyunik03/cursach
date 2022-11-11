@@ -6,7 +6,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "XMLProvider": "1.0.0"
+          "CourseWorkDAL": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CourseWork.BLL.dll": {}
@@ -28,14 +28,14 @@
           "bin/placeholder/CourseWork.PL.dll": {}
         }
       },
-      "XMLProvider/1.0.0": {
+      "CourseWorkDAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/XMLProvider.dll": {}
+          "bin/placeholder/CourseWorkDAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/XMLProvider.dll": {}
+          "bin/placeholder/CourseWorkDAL.dll": {}
         }
       }
     }
@@ -51,10 +51,10 @@
       "path": "../CourseWork.PL/CourseWork.PL.csproj",
       "msbuildProject": "../CourseWork.PL/CourseWork.PL.csproj"
     },
-    "XMLProvider/1.0.0": {
+    "CourseWorkDAL/1.0.0": {
       "type": "project",
-      "path": "../XMLProvider/XMLProvider.csproj",
-      "msbuildProject": "../XMLProvider/XMLProvider.csproj"
+      "path": "../CourseWorkDAL/CourseWorkDAL.csproj",
+      "msbuildProject": "../CourseWorkDAL/CourseWorkDAL.csproj"
     }
   },
   "projectFileDependencyGroups": {

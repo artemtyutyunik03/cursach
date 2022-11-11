@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\XMLProvider\XMLProvider.csproj" />
+      <ProjectReference Include="..\CourseWorkDAL\CourseWorkDAL.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,8 +1,6 @@
 /Users/artem/RiderProjects/CourseWork/CourseWork.BLL/bin/Debug/net6.0/CourseWork.BLL.deps.json
 /Users/artem/RiderProjects/CourseWork/CourseWork.BLL/bin/Debug/net6.0/CourseWork.BLL.dll
 /Users/artem/RiderProjects/CourseWork/CourseWork.BLL/bin/Debug/net6.0/CourseWork.BLL.pdb
-/Users/artem/RiderProjects/CourseWork/CourseWork.BLL/bin/Debug/net6.0/XMLProvider.dll
-/Users/artem/RiderProjects/CourseWork/CourseWork.BLL/bin/Debug/net6.0/XMLProvider.pdb
 /Users/artem/RiderProjects/CourseWork/CourseWork.BLL/obj/Debug/net6.0/CourseWork.BLL.csproj.AssemblyReference.cache
 /Users/artem/RiderProjects/CourseWork/CourseWork.BLL/obj/Debug/net6.0/CourseWork.BLL.GeneratedMSBuildEditorConfig.editorconfig
 /Users/artem/RiderProjects/CourseWork/CourseWork.BLL/obj/Debug/net6.0/CourseWork.BLL.AssemblyInfoInputs.cache
@@ -13,3 +11,5 @@
 /Users/artem/RiderProjects/CourseWork/CourseWork.BLL/obj/Debug/net6.0/refint/CourseWork.BLL.dll
 /Users/artem/RiderProjects/CourseWork/CourseWork.BLL/obj/Debug/net6.0/CourseWork.BLL.pdb
 /Users/artem/RiderProjects/CourseWork/CourseWork.BLL/obj/Debug/net6.0/ref/CourseWork.BLL.dll
+/Users/artem/RiderProjects/CourseWork/CourseWork.BLL/bin/Debug/net6.0/CourseWorkDAL.dll
+/Users/artem/RiderProjects/CourseWork/CourseWork.BLL/bin/Debug/net6.0/CourseWorkDAL.pdb

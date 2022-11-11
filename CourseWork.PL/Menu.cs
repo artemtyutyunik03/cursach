@@ -12,7 +12,6 @@ namespace CourseWork.PL {
             
             void CheckForContinue(string? str)
             {
-                MenuAPI.Continue(null!);
                 state =  str == "yes";
             }
             
@@ -38,6 +37,7 @@ namespace CourseWork.PL {
                                     ValidationRules.InputGroupName(out var groupName);
 
                                     Services.AddStudent(name, surname, Convert.ToInt32(course), ID, groupName);
+                                    MenuAPI.Continue(null!);
                                     CheckForContinue(Convert.ToString(Console.ReadLine()));
                                 }
                                     break;
@@ -46,6 +46,8 @@ namespace CourseWork.PL {
                                     ValidationRules.InputID(out var ID);
 
                                     Services.DeleteStudent(ID);
+                                    
+                                    MenuAPI.Continue(null!);
                                     CheckForContinue(Convert.ToString(Console.ReadLine()));
                                 } 
                                     break;
@@ -58,18 +60,25 @@ namespace CourseWork.PL {
                                     ValidationRules.InputGroupName(out var groupName);
 
                                     Services.ChangeStudentData(ID, newName, newSurname, Convert.ToInt32(course), groupName);
+                                    
+                                    MenuAPI.Continue(null!);
                                     CheckForContinue(Convert.ToString(Console.ReadLine()));
                                 } 
                                     break;
                                 case 4:
                                 {
                                     Console.WriteLine(Services.GetAllStudents());
+                                    
+                                    MenuAPI.Continue(null!);
+                                    CheckForContinue(Convert.ToString(Console.ReadLine()));
                                 } 
                                     break;
                                 case 5:
                                 {
                                     ValidationRules.InputID(out var ID);
                                     Console.WriteLine(Services.getStudentByID(ID));
+                                    
+                                    MenuAPI.Continue(null!);
                                      CheckForContinue(Convert.ToString(Console.ReadLine()));
                                 } 
                                     break;
@@ -86,6 +95,8 @@ namespace CourseWork.PL {
                                     ValidationRules.InputCourse(out var course);
 
                                     Services.AddGroup(name, Convert.ToInt32(course));
+                                    
+                                    MenuAPI.Continue(null!);
                                      CheckForContinue(Convert.ToString(Console.ReadLine()));
                                 }
                                     break;
@@ -94,6 +105,9 @@ namespace CourseWork.PL {
                                     ValidationRules.InputGroupName(out var name);
 
                                     Services.DeleteGroup(name);
+                                    
+                                    
+                                    MenuAPI.Continue(null!);
                                     CheckForContinue(Convert.ToString(Console.ReadLine()));
                                 } break;
                                 case 3:
@@ -103,6 +117,8 @@ namespace CourseWork.PL {
                                         ValidationRules.InputCourse(out var course);
 
                                         Services.ChangeGroupData(name, newName, Convert.ToInt32(course)); 
+                                        
+                                        MenuAPI.Continue(null!);
                                         CheckForContinue(Convert.ToString(Console.ReadLine()));
                                     } 
                                     break;
@@ -111,6 +127,8 @@ namespace CourseWork.PL {
                                         ValidationRules.InputGroupName(out var name);
 
                                         Console.WriteLine(Services.GetGroupByName(name));
+                                        
+                                        MenuAPI.Continue(null!);
                                          CheckForContinue(Convert.ToString(Console.ReadLine()));
                                     } 
                                     break;
@@ -120,6 +138,8 @@ namespace CourseWork.PL {
                                         ValidationRules.InputID(out var ID);
                                         
                                         Services.AddStudentToGroup(groupName, ID);
+                                        
+                                        MenuAPI.Continue(null!);
                                          CheckForContinue(Convert.ToString(Console.ReadLine()));
                                     } 
                                     break;
@@ -129,6 +149,8 @@ namespace CourseWork.PL {
                                     ValidationRules.InputID(out var ID);
                                     
                                     Services.RemoveStudentFromGroup(groupName, ID);
+                                    
+                                    MenuAPI.Continue(null!);
                                     CheckForContinue(Convert.ToString(Console.ReadLine()));
                                         
                                 } break;
@@ -147,7 +169,9 @@ namespace CourseWork.PL {
                                         ValidationRules.InputLimitInRoom(out var limit);
 
                                         Services.AddHostel( Convert.ToInt32(numberOfHostel),  Convert.ToInt32(numberOfFloor),Convert.ToInt32(numberOfRooms),  Convert.ToInt32(limit));
-                                         CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                         
+                                        MenuAPI.Continue(null!);
+                                        CheckForContinue(Convert.ToString(Console.ReadLine()));
                                     } 
                                     break;
                                     case 2:
@@ -156,7 +180,9 @@ namespace CourseWork.PL {
                                         ValidationRules.InputNumberOfHostel(out var newNumber);
 
                                         Services.ChangeHostelData(Convert.ToInt32(numberOfHostel), Convert.ToInt32(newNumber));
-                                         CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                        
+                                        MenuAPI.Continue(null!);
+                                        CheckForContinue(Convert.ToString(Console.ReadLine()));
                                     } 
                                     break;
                                     case 3: {
@@ -165,7 +191,9 @@ namespace CourseWork.PL {
                                         ValidationRules.InputNumberOfRoom(out var roomNumber);
 
                                         Services.AddStudentToHostel( Convert.ToInt32(hostelNumber), Convert.ToInt32(roomNumber),ID);
-                                       CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                      
+                                        MenuAPI.Continue(null!);
+                                        CheckForContinue(Convert.ToString(Console.ReadLine()));
                                     } 
                                     break;
                                     case 4:
@@ -176,6 +204,8 @@ namespace CourseWork.PL {
                                         ValidationRules.InputNumberOfRoom(out var roomNumber);
 
                                         Services.RemoveStudentFromHostel( Convert.ToInt32(hostelNumber), Convert.ToInt32(roomNumber), name, surname);
+                                        
+                                        MenuAPI.Continue(null!);
                                         CheckForContinue(Convert.ToString(Console.ReadLine()));
                                     } 
                                     break;
@@ -183,6 +213,8 @@ namespace CourseWork.PL {
                                     {
                                         ValidationRules.InputNumberOfHostel(out var hostelNumber);
                                         Console.WriteLine(Services.GetInfoByNumber( Convert.ToInt32(hostelNumber)));
+                                        
+                                        MenuAPI.Continue(null!);
                                         CheckForContinue(Convert.ToString(Console.ReadLine()));
                                     } 
                                     break;
@@ -199,6 +231,8 @@ namespace CourseWork.PL {
                                         ValidationRules.InputID(out var ID);
 
                                         Console.WriteLine(SearchFunction.SearchStudentByID(ID));
+                                        
+                                        MenuAPI.Continue(null!);
                                         CheckForContinue(Convert.ToString(Console.ReadLine()));
                                     } 
                                     break;
@@ -208,6 +242,8 @@ namespace CourseWork.PL {
                                         ValidationRules.InputID(out var ID);
 
                                         Console.WriteLine(SearchFunction.SearchStudentByGroupName(GroupName, ID));
+                                        
+                                        MenuAPI.Continue(null!);
                                         CheckForContinue(Convert.ToString(Console.ReadLine()));
                                     } 
                                     break;

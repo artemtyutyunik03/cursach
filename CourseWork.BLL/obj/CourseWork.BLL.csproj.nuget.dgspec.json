@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/artem/RiderProjects/CourseWork/XMLProvider/XMLProvider.csproj": {
-                "projectPath": "/Users/artem/RiderProjects/CourseWork/XMLProvider/XMLProvider.csproj"
+              "/Users/artem/RiderProjects/CourseWork/CourseWorkDAL/CourseWorkDAL.csproj": {
+                "projectPath": "/Users/artem/RiderProjects/CourseWork/CourseWorkDAL/CourseWorkDAL.csproj"
               }
             }
           }
@@ -61,14 +61,14 @@
         }
       }
     },
-    "/Users/artem/RiderProjects/CourseWork/XMLProvider/XMLProvider.csproj": {
+    "/Users/artem/RiderProjects/CourseWork/CourseWorkDAL/CourseWorkDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/artem/RiderProjects/CourseWork/XMLProvider/XMLProvider.csproj",
-        "projectName": "XMLProvider",
-        "projectPath": "/Users/artem/RiderProjects/CourseWork/XMLProvider/XMLProvider.csproj",
+        "projectUniqueName": "/Users/artem/RiderProjects/CourseWork/CourseWorkDAL/CourseWorkDAL.csproj",
+        "projectName": "CourseWorkDAL",
+        "projectPath": "/Users/artem/RiderProjects/CourseWork/CourseWorkDAL/CourseWorkDAL.csproj",
         "packagesPath": "/Users/artem/.nuget/packages/",
-        "outputPath": "/Users/artem/RiderProjects/CourseWork/XMLProvider/obj/",
+        "outputPath": "/Users/artem/RiderProjects/CourseWork/CourseWorkDAL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/artem/.nuget/NuGet/NuGet.Config"
