@@ -12,7 +12,8 @@ namespace CourseWork.BLL
         public int Course { get; set; }
         public string NameOfGroup { get; set; }
         
-        public Group group;
+        public Group Group;
+        
         public Student(string firstName,string lastName,int course,string id,string nameOfGroup)
         {
             FirstName = firstName;
@@ -20,7 +21,7 @@ namespace CourseWork.BLL
             Course = course;
             ID = id;
             NameOfGroup = nameOfGroup;
-            group = new Group(Course, NameOfGroup);
+            Group = new Group(Course, NameOfGroup);
         }
         
         public override string ToString()
@@ -28,7 +29,7 @@ namespace CourseWork.BLL
             return $"Student: {LastName} {FirstName}\n"+
                    $"FirsName: {FirstName}\n"+
                    $"LastName: {LastName}\n"+
-                   $"Group: {group}\n"+
+                   $"Group: {NameOfGroup}\n"+
                    $"Course: {Course}\n"+
                    $"Student ID: {ID}\n";
         }

@@ -1,14 +1,21 @@
-﻿using System;
-using CourseWork.BLL;
+﻿using CourseWork.BLL;
 
 
 namespace CourseWork.PL {
     public static class Menu
     {
-        public static void MainMenu()
+        
+        public static void Switcher()
         {
             bool state = true;
             int choice = -1;
+            
+            void CheckForContinue(string? str)
+            {
+                MenuAPI.Continue(null!);
+                state =  str == "yes";
+            }
+            
             do
             {
                 MenuAPI.ChooseManagment();
@@ -24,24 +31,192 @@ namespace CourseWork.PL {
                             {
                                 case 1:
                                 {
-                                    string Name, Surname, YearOfStudy, Speciality;
+                                    ValidationRules.InputName(out var name);
+                                    ValidationRules.InputSurname(out var surname);
+                                    ValidationRules.InputCourse(out var course);
+                                    ValidationRules.InputID(out var ID);
+                                    ValidationRules.InputGroupName(out var groupName);
 
-                                    MenuAPI.InputName(out Name);
-                                    MenuAPI.InputSurname(out Surname);
-                                    MenuAPI.InputYearOfStudy(out YearOfStudy);
-                                    MenuAPI.InputSpeciality(out Speciality);
-
-                                    Functions.AddStudent(Name, Surname, Convert.ToInt32(YearOfStudy), Speciality);
-                                    MenuAPI.Continue(null);
+                                    Services.AddStudent(name, surname, Convert.ToInt32(course), ID, groupName);
+                                    CheckForContinue(Convert.ToString(Console.ReadLine()));
                                 }
+                                    break;
+                                case 2:
+                                {
+                                    ValidationRules.InputID(out var ID);
+
+                                    Services.DeleteStudent(ID);
+                                    CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                } 
+                                    break;
+                                case 3:
+                                {
+                                    ValidationRules.InputID(out var ID);
+                                    ValidationRules.InputName(out var newName);
+                                    ValidationRules.InputSurname(out var newSurname);
+                                    ValidationRules.InputCourse(out var course);
+                                    ValidationRules.InputGroupName(out var groupName);
+
+                                    Services.ChangeStudentData(ID, newName, newSurname, Convert.ToInt32(course), groupName);
+                                    CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                } 
+                                    break;
+                                case 4:
+                                {
+                                    Console.WriteLine(Services.GetAllStudents());
+                                } 
+                                    break;
+                                case 5:
+                                {
+                                    ValidationRules.InputID(out var ID);
+                                    Console.WriteLine(Services.getStudentByID(ID));
+                                     CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                } 
                                     break;
                             }
                         } break;
+                        case 2:
+                        {
+                            MenuAPI.GroupManagment();
+                            switch (Convert.ToInt32(Console.ReadLine()))
+                            {
+                                case 1:
+                                {
+                                    ValidationRules.InputGroupName(out var name);
+                                    ValidationRules.InputCourse(out var course);
+
+                                    Services.AddGroup(name, Convert.ToInt32(course));
+                                     CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                }
+                                    break;
+                                case 2:
+                                {
+                                    ValidationRules.InputGroupName(out var name);
+
+                                    Services.DeleteGroup(name);
+                                    CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                } break;
+                                case 3:
+                                    {
+                                        ValidationRules.InputGroupName(out var name);
+                                        ValidationRules.InputName(out var newName);
+                                        ValidationRules.InputCourse(out var course);
+
+                                        Services.ChangeGroupData(name, newName, Convert.ToInt32(course)); 
+                                        CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                    } 
+                                    break;
+                                case 4:
+                                    {
+                                        ValidationRules.InputGroupName(out var name);
+
+                                        Console.WriteLine(Services.GetGroupByName(name));
+                                         CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                    } 
+                                    break;
+                                case 5:
+                                    {
+                                        ValidationRules.InputGroupName(out var groupName);
+                                        ValidationRules.InputID(out var ID);
+                                        
+                                        Services.AddStudentToGroup(groupName, ID);
+                                         CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                    } 
+                                    break;
+                                case 6:
+                                {
+                                    ValidationRules.InputGroupName(out var groupName);
+                                    ValidationRules.InputID(out var ID);
+                                    
+                                    Services.RemoveStudentFromGroup(groupName, ID);
+                                    CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                        
+                                } break;
+                            }   
+                        } break;
+                        case 3:
+                        {
+                            MenuAPI.HostelManagment();
+                            switch (Convert.ToInt32(Console.ReadLine()))
+                                {
+                                    case 1:
+                                    {
+                                        ValidationRules.InputNumberOfHostel(out var numberOfHostel);
+                                        ValidationRules.InputNumberOfHostel(out var numberOfFloor);
+                                        ValidationRules.InputNumberOfRooms(out var numberOfRooms);
+                                        ValidationRules.InputLimitInRoom(out var limit);
+
+                                        Services.AddHostel( Convert.ToInt32(numberOfHostel),  Convert.ToInt32(numberOfFloor),Convert.ToInt32(numberOfRooms),  Convert.ToInt32(limit));
+                                         CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                    } 
+                                    break;
+                                    case 2:
+                                    {
+                                        ValidationRules.InputNumberOfHostel(out var numberOfHostel);
+                                        ValidationRules.InputNumberOfHostel(out var newNumber);
+
+                                        Services.ChangeHostelData(Convert.ToInt32(numberOfHostel), Convert.ToInt32(newNumber));
+                                         CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                    } 
+                                    break;
+                                    case 3: {
+                                        ValidationRules.InputID(out var ID);
+                                        ValidationRules.InputNumberOfHostel(out var hostelNumber);
+                                        ValidationRules.InputNumberOfRoom(out var roomNumber);
+
+                                        Services.AddStudentToHostel( Convert.ToInt32(hostelNumber), Convert.ToInt32(roomNumber),ID);
+                                       CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                    } 
+                                    break;
+                                    case 4:
+                                    {
+                                        ValidationRules.InputName(out var name);
+                                        ValidationRules.InputSurname(out var surname);
+                                        ValidationRules.InputNumberOfHostel(out var hostelNumber);
+                                        ValidationRules.InputNumberOfRoom(out var roomNumber);
+
+                                        Services.RemoveStudentFromHostel( Convert.ToInt32(hostelNumber), Convert.ToInt32(roomNumber), name, surname);
+                                        CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                    } 
+                                    break;
+                                    case 5:
+                                    {
+                                        ValidationRules.InputNumberOfHostel(out var hostelNumber);
+                                        Console.WriteLine(Services.GetInfoByNumber( Convert.ToInt32(hostelNumber)));
+                                        CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                    } 
+                                    break;
+                                }
+                        }
+                        break;
+                         case 4:
+                        {
+                            MenuAPI.SearchManagment();
+                            switch (Convert.ToInt32(Console.ReadLine()))
+                                {
+                                    case 1:
+                                    {
+                                        ValidationRules.InputID(out var ID);
+
+                                        Console.WriteLine(SearchFunction.SearchStudentByID(ID));
+                                        CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                    } 
+                                    break;
+                                    case 2:
+                                    {
+                                        ValidationRules.InputGroupName(out var GroupName);
+                                        ValidationRules.InputID(out var ID);
+
+                                        Console.WriteLine(SearchFunction.SearchStudentByGroupName(GroupName, ID));
+                                        CheckForContinue(Convert.ToString(Console.ReadLine()));
+                                    } 
+                                    break;
+                                }
+                        }
+                        break;
                     }
                 }
-                catch
-
-                    (Exception ex)
+                catch (Exception ex)
                 {
                     MenuAPI.Continue(ex);
                     state = false;
